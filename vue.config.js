@@ -34,5 +34,18 @@ module.exports = {
             vuex: 'Vuex',
             axios: 'axios'
         } : {}
+    },
+    //配置css
+    css: {
+        loaderOptions: {
+            //给 sass-loader 传递选项
+            sass: {
+                // 传入共享全局变量
+                prependData: `
+                    @import "@/style/variable.scss";
+                    @import "@/style/mixin.scss";
+                `
+            }
+        }
     }
 }
