@@ -5,6 +5,12 @@
     --text-color: #2934d4;
 }
 
-p {
-    color: var(--text-color);
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+ul > li {
+    list-style: none;
 }
