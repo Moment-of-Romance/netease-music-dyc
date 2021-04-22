@@ -22,8 +22,6 @@
         </ul>
       </div>
     </div>
-    我是menu component
-
   </div>
 </template>
 <script>
@@ -49,9 +47,10 @@ export default {
 </script>
 <style lang="scss">
 .menu {
-  width: 350px;
+  width: 250px;
   height: 100%;
   background-color: var(--menu-bgcolor);
+  background: red;
   display: flex;
   flex-direction: column;
 
